@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shootesy – Coming Soon</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #E5A84A;
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+    header {
+      margin-top: 40px;
+    }
+    header img {
+      width: 220px;
+      height: auto;
+    }
+    header h1 {
+      display: none;
+    }
+    header p {
+      font-size: 18px;
+      margin: 10px 0 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 60px 20px;
+      gap: 40px;
+      max-width: 960px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .card {
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 12px;
+      max-width: 350px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      flex: 1 1 300px;
+      box-sizing: border-box;
+    }
+    .card h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 16px;
+      color: #444;
+      line-height: 1.5;
+    }
+    .card a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background: #1a1a1a;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.3s;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .card a.button:hover,
+    .card a.button:focus {
+      background: #333;
+      outline: none;
+    }
+    footer {
+      margin-top: auto;
+      font-size: 14px;
+      color: #222;
+      padding: 20px;
+    }
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 10px;
+        gap: 30px;
+      }
+      .card {
+        max-width: 100%;
+        flex: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="X:/shhotBuddy/LOGO/Final Logos revised/Final-ShootEzy-Logo-03.png" alt="Shootesy Logo" />
+    <h1>ShöötEsy</h1>
+    <p>India’s Smartest Creative Marketplace - Coming Soon!</p>
+  </header>
+
+  <main class="container">
+    <section class="card" aria-labelledby="card1-title">
+      <h2 id="card1-title">📄 Tell Us About Your Shoot Needs</h2>
+      <p>📄 We’re building Shootesy to make shoot bookings easier — and your input helps us tailor it to your needs.</p>
+      <a
+        class="button"
+        href="https://forms.gle/SNjPjMtZZ64JLWbe6"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Share your shoot needs via Google Form"
+      >
+        Share Your Needs
+      </a>
+    </section>
+
+    <section class="card" aria-labelledby="card2-title">
+      <h2 id="card2-title">✨ Ready to Showcase Your Talent?</h2>
+      <p>Join India's smartest creative marketplace. We connect photographers, videographers, editors, and more with exciting projects.</p>
+      <a
+        class="button"
+        href="https://forms.gle/SNjPjMtZZ64JLWbe6"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Join Shootesy and register via Google Form"
+      >
+        Join Us & Register Now
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Shootesy. All rights reserved.
+  </footer>
+</body>
+</html>
